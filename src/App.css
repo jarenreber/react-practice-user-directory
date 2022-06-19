@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nav {
+  background-color: #19b6fa;
+  padding: 2.5rem;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#nav h2 {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#card {
+  background-color: white;
+  margin: 4rem;
+  padding: 4rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row-reverse;
+  flex-grow:;
 }
 
-.App-link {
-  color: #61dafb;
+#main {
+  background-color: rgb(26, 25, 25);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  background-color: rgb(26, 25, 25);
+}
+
+#outOf {
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+
+#info {
+  flex-grow: 4;
+}
+
+#name {
+  border: 10px;
+  border-color: #19b6fa;
+}
+
+#line{
+  background-color: #35a5db;
+  width:100%;
+  height: 3px;
+}
+
+#info h3 p {
+  font-weight: 900;
+}
+
+#info h3 {
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: 200;
+}
+
+#from {
+  display: inline;
 }
